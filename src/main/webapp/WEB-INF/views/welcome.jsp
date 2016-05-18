@@ -34,9 +34,7 @@
         cursor                   : pointer;
         outline                  : none;
     }
-
     div#citySelection, div#specialSelection{ position: relative; display: inline-block;}
-
     div#citySelection::after, div#specialSelection::after
     {
         content                 : "\25bc";
@@ -88,17 +86,12 @@
 <h1>${name}</h1>
 <h1>${age}</h1>
 <h1>${sex}</h1>
-
 <h2>${hello_1}</h2>
 <h2>${hello_2}</h2>
-
-
 <div>
     <c:forEach items="${map}" var="m">
         ${m.key}------->${m.value}
     </c:forEach>
 </div>
-
-
 </body>
 </html>
