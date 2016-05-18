@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
@@ -83,5 +84,21 @@
         <option>Parvenu</option>
     </select>
 </div>
+<br/>
+<h1>${name}</h1>
+<h1>${age}</h1>
+<h1>${sex}</h1>
+
+<h2>${hello_1}</h2>
+<h2>${hello_2}</h2>
+
+
+<div>
+    <c:forEach items="${map}" var="m">
+        ${m.key}------->${m.value}
+    </c:forEach>
+</div>
+
+
 </body>
 </html>
