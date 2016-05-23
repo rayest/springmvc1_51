@@ -1,11 +1,4 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2016/5/15 0015
-  Time: 下午 11:04
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -57,7 +50,7 @@
 
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1>Welcome to my city!</h1>
 <div id="citySelection">
     <select id="selectWhereYouWannaGo" title="cityForChoosing">
         <option>Mingguang</option>
@@ -81,17 +74,6 @@
         <option>WaterAndBride</option>
         <option>Parvenu</option>
     </select>
-</div>
-<br/>
-<h1>${name}</h1>
-<h1>${age}</h1>
-<h1>${sex}</h1>
-<h2>${hello_1}</h2>
-<h2>${hello_2}</h2>
-<div>
-    <c:forEach items="${map}" var="m">
-        ${m.key}------->${m.value}
-    </c:forEach>
 </div>
 </body>
 </html>
