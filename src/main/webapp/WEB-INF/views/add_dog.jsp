@@ -15,9 +15,9 @@
 --%>
 
 <%-- springmvc提供的表单 --%>
-<form:form action="result" method="post" modelAttribute="user">
-    名字：<form:input path="name"/><br>
-    年龄：<form:input path="age"/><br>
+<form:form action="result" method="post" modelAttribute="dog">
+    名字：<form:input path="dog_name"/><br>
+    年龄：<form:input path="dog_age"/><br>
     <input type="submit">
 </form:form>
 </body>

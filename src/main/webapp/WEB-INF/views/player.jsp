@@ -7,7 +7,7 @@
 <body>
 <div>
     <c:forEach items="${map}" var="m">
-        ${m.key}------->${m.value}
+        <h2>${m.key} : ${m.value}</h2>
     </c:forEach>
 </div>
 </body>

@@ -5,9 +5,9 @@
 </head>
 <body>
 <div>
-    <h1>${name}</h1>
-    <h1>${age}</h1>
-    <h1>${sex}</h1>
+    <h1>${book_name}</h1>
+    <h1>${book_type}</h1>
+    <h1>${book_author}</h1>
 </div>
 </body>
 </html>
